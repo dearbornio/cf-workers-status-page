@@ -41,7 +41,7 @@ monitors:
 
   - id: fairlanegardens
     name: Fairlane Gardens
-    url: 'https://flgardens.com/'
+    url: 'https://www.flgardens.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
