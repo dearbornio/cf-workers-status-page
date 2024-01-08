@@ -1,6 +1,6 @@
 settings:
-  title: 'Status Page'
-  url: 'https://status.dearborn.io' # used for Slack messages
+  title: 'SonekNet Status'
+  url: 'https://status.soneknet.com' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -15,40 +15,33 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: dearbornio # unique identifier
-    name: DearbornIO
-    description: 'DearbornIO Homepage' # default=empty
-    url: 'https://dearborn.io/' # URL to fetch
+  - id: plex # unique identifier
+    name: Plex
+    description: 'Plex' # default=empty
+    url: 'https://plex.soneknet.com/identity' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: acreautoparts
-    name: Acre Auto Parts
+  - id: request
+    name: Requests
     description: ''
-    url: 'https://www.acreautoparts.com'
+    url: 'https://request.soneknet.com'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: ac4jc
-    name: American Cash For Junk Cars
-    url: 'https://americancashforjunkcars.com/'
+  - id: read
+    name: Paywall Bypass
+    url: 'https://read.soneknet.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: fairlanegardens
-    name: Fairlane Gardens
-    url: 'https://www.flgardens.com/'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
-  - id: hamoudydev
-    name: HamoudyDev
-    url: 'https://hamoudy.dev/'
+  - id: project
+    name: Project Management
+    url: 'https://www.project.soneknet.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
