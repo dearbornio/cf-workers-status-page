@@ -26,7 +26,7 @@ monitors:
 
   - id: request
     name: Requests
-    description: ''
+    description: 'request.soneknet.com'
     url: 'https://request.soneknet.com'
     method: GET
     expectStatus: 200
@@ -34,6 +34,7 @@ monitors:
 
   - id: read
     name: Paywall Bypass
+    description: 'read.soneknet.com'
     url: 'https://read.soneknet.com/'
     method: GET
     expectStatus: 200
@@ -41,7 +42,8 @@ monitors:
 
   - id: project
     name: Project Management
-    url: 'https://www.project.soneknet.com/'
+    description: 'project.soneknet.com'
+    url: 'https://project.soneknet.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
