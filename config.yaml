@@ -17,12 +17,12 @@ settings:
 monitors:
   - id: plex # unique identifier
     name: Plex
-    description: 'Plex' # default=empty
+    description: '' # default=empty
     url: 'https://plex.soneknet.com/identity' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
 
   - id: request
     name: request.soneknet.com
