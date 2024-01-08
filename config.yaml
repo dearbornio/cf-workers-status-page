@@ -27,7 +27,7 @@ monitors:
   - id: request
     name: request.soneknet.com
     description: ''
-    url: 'https://request.soneknet.com'
+    url: 'https://request.soneknet.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
