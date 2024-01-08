@@ -25,24 +25,24 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: request
-    name: Requests
-    description: 'request.soneknet.com'
+    name: request.soneknet.com
+    description: ''
     url: 'https://request.soneknet.com'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
   - id: read
-    name: Paywall Bypass
-    description: 'read.soneknet.com'
+    name: read.soneknet.com
+    description: ''
     url: 'https://read.soneknet.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
   - id: project
-    name: Project Management
-    description: 'project.soneknet.com'
+    name: project.soneknet.com
+    description: ''
     url: 'https://project.soneknet.com/'
     method: GET
     expectStatus: 200
